@@ -24,20 +24,31 @@ if (item === 'Vanilla'){
   alert('Strawberry isnt as nice but go for it');
 } else if (item === 'Chocolate') {
   alert('Chocolate is amazing');
-}{
-  alert('Sorry we do not sell that flavour');
 }
+  else {
+    alert('Sorry we do not sell that flavour');
+  }
 
-
+  alert('Alright, how much does Strawberry ice cream cost? I would like that please.')
+  alert( '£1 per scoop, but I will give you an extra one for free.')
+  var iceCream = 1;
+  var price = iceCream * 2 - 1;
+  alert(`The price is ${price}`)
 
 console.log(item);
 
+  alert('Anything else?');
+  alert('Can I get a beer please?')
 
-//String
+
+
+
+
+//   String
 //   Alerts
 //   Prompts
 //Integers / Floats
-//Operators (+ - * /)
+//Operators (+   - * /)
 //Booleans
 //Array
 //Object (bonus)
